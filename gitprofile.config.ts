@@ -21,53 +21,38 @@ const CONFIG = {
         ],
       },
     },
-    external: {
-      header: 'Featured Projects',
-      projects: [
-        {
-          title: 'RAHD AI – Decommissioning Intelligence Platform',
-          description:
-            'AI-powered document and data intelligence system for large-scale infrastructure decommissioning. Built to extract, structure, and analyze complex technical information, accelerating planning workflows and significantly reducing manual review effort.',
-          imageUrl:
-            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
-          link: 'https://rahd.ai/',
-        },
-
-        {
-          title: 'ROHM – Building Regulations Assistant',
-          description:
-            'Full-stack RAG system with semantic search for UK building regulations. Built with FastAPI, Weaviate, LlamaIndex, React, and Tailwind CSS. Achieves 85% faster regulatory information access.',
-          imageUrl:
-            'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop',
-          link: 'https://github.com/luistoq',
-        },
-        {
-          title: 'AISUS Computer Vision – Anomaly Detection',
-          description:
-            '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
-          imageUrl:
-            'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&auto=format&fit=crop',
-          link: 'https://www.youtube.com/watch?v=vMQuRHQAhNc',
-        },
-        {
-          title: 'TRAC – Industrial Data Platform',
-          description:
-            'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1 day.',
-          imageUrl:
-            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
-          link: 'https://github.com/luistoq',
-        },
-        {
-          title: 'Innosport AI – Performance Coaching',
-          description:
-            'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices for video processing.',
-          imageUrl:
-            'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop',
-          link: 'https://www.innosport.ai/',
-        },
-
-      ],
-    },
+  external: {
+    header: 'Featured Projects',
+    projects: [
+      {
+        title: 'RAHD AI – Decommissioning Intelligence Platform',
+        description:
+          'AI-powered document and data intelligence system for large-scale infrastructure decommissioning. Built to extract, structure, and analyse complex technical information, accelerating planning workflows and significantly reducing manual review effort.',
+        imageUrl: '/images/projects/rahd.png',
+        link: 'https://rahd.ai/',
+      },
+      {
+        title: 'AISUS Machine Learning – Anomaly Detection',
+        description:
+          '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
+        imageUrl: '/images/projects/aisus.png',
+        link: 'https://www.youtube.com/watch?v=vMQuRHQAhNc',
+      },
+      {
+        title: 'TRAC – Industrial Data Platform',
+        description:
+          'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1 day.',
+        imageUrl: '/images/projects/trac.png',
+        link: 'https://www.linkedin.com/posts/trac-energy-ltd_datavisualisation-3dplot-tracenergy-ugcPost-7321117211912265729-7-CV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAzgPuEBc-aHfz7dYUIN7iLQL4txYRDpOuM',
+      },
+      {
+        title: 'Innosport AI – Performance Coaching',
+        description:
+          'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices for video processing.',
+        imageUrl: '/images/projects/innosport.png',
+        link: 'https://www.innosport.ai/',
+      },
+    ],
   },
 
   seo: {
