@@ -1,28 +1,26 @@
 // gitprofile.config.ts
+// Complete configuration with all projects including AISUS
 
 const CONFIG = {
   github: {
-    username: 'luistoq', // Your GitHub username
+    username: 'luistoq',
   },
-  base: '/', // '/' for luistoq.github.io, '/portfolio/' for luistoq.github.io/portfolio
+  base: '/',
 
   projects: {
     github: {
       display: true,
-      header: 'GitHub Projects',
-      mode: 'manual', // Changed from 'automatic' to 'manual'
-      manual: {
-        projects: [
-          'luistoq/OCR-Quality-Evaluation-Framework-Python-LanguageTool',      // OCR Quality Evaluation Framework — Python & LanguageTool
-          'luistoq/AI-PDF-Assistant-RAG-Chatbot-using-LlamaIndex-Ollama',     // AI PDF Assistant — RAG Chatbot using LlamaIndex & Ollama
-          'luistoq/Computer-Vision-Libraries-Benchmark-Streamlit-Python',      // Computer Vision Libraries Benchmark — Streamlit & Python
-          'luistoq/Computer-Vision-for-the-Energy-Sector-Practical-Showcase',  // Computer Vision for the Energy Sector — Practical Showcase
-          'luistoq/Wind-Power-Forecasting-App-Streamlit-PCA-LSTM',             // Wind Power Forecasting App — Streamlit, PCA & LSTM
-        ],
+      header: 'GitHub Repositories',
+      mode: 'automatic', // Change to 'manual' if you want to select specific repos
+      automatic: {
+        sortBy: 'stars',
+        limit: 6,
+        exclude: {
+          forks: false,
+          projects: [], // Add repo names here to hide them: ['luistoq/repo-to-hide']
+        },
       },
     },
-  },
-
     external: {
       header: 'Featured Projects',
       projects: [
@@ -78,7 +76,6 @@ const CONFIG = {
     },
   },
 
-
   seo: {
     title: 'Luis Toral | Lead AI Engineer',
     description:
@@ -95,7 +92,7 @@ const CONFIG = {
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '',
+    youtube: '', // Add your YouTube channel if you have one
     udemy: '',
     dribbble: '',
     behance: '',
@@ -110,7 +107,7 @@ const CONFIG = {
   },
 
   resume: {
-    fileUrl: 'https://luistoq.github.io/Luis_Toral_AI_Engineer_01-12-2025.pdf',
+    fileUrl: '', // Add your CV URL here after uploading it to GitHub
   },
 
   skills: [
@@ -130,6 +127,7 @@ const CONFIG = {
     'CI/CD',
     'RAG Systems',
     'LLMs',
+    'Computer Vision',
   ],
 
   experiences: [
@@ -212,7 +210,7 @@ const CONFIG = {
   ],
 
   blog: {
-    source: '',
+    source: '', // 'medium' or 'dev' if you have a blog
     username: '',
     limit: 3,
   },
@@ -266,12 +264,6 @@ const CONFIG = {
       'sunset',
     ],
   },
-
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
