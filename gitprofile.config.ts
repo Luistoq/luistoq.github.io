@@ -32,11 +32,18 @@ const CONFIG = {
         link: 'https://rahd.ai/',
       },
       {
+        title: 'HPR ROV – Visual Digital Twin Platform',
+        description:
+          'Contributed to subsea inspection platform development using Visual Digital Twins. Built video ingestion and AI-assisted reporting tools with Azure Functions, Blob Storage, and Python microservices, integrating LLM-based summarisation for inspection insights.',
+        imageUrl: '/images/projects/hpr.png', // you'd need a generic subsea/ROV image
+        link: 'https://www.linkedin.com/posts/jan-stander-3ba0aa91_digitaltwin-energy-subsea-activity-7369674392114528257-2vgb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAzgPuEBc-aHfz7dYUIN7iLQL4txYRDpOuM', // this LinkedIn post
+      },
+      {
         title: 'AISUS Machine Learning – Anomaly Detection',
         description:
           '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
         imageUrl: '/images/projects/aisus.png',
-        link: 'https://www.youtube.com/watch?v=vMQuRHQAhNc',
+        link: 'https://www.linkedin.com/posts/jan-stander-3ba0aa91_digitaltwin-energy-subsea-activity-7369674392114528257-2vgb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAzgPuEBc-aHfz7dYUIN7iLQL4txYRDpOuM',
       },
       {
         title: 'TRAC – Industrial Data Platform',
