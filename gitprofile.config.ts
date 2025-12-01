@@ -90,7 +90,7 @@ const CONFIG = {
   },
 
   resume: {
-    fileUrl: '',
+    fileUrl: 'https://luistoq.github.io/Luis_Toral_AI_Engineer_01-12-2025.pdf',
   },
 
   skills: [
