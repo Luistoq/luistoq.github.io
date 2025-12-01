@@ -150,15 +150,75 @@ const CONFIG = {
 
   certifications: [
     {
+      name: 'Professional Agile Leadership I',
+      body: 'Scrum.org - Agile Methodologies and Scrum leadership certification',
+      year: 'April 2024',
+      link: '',
+    },
+    {
+      name: 'ITOL Accredited Course Certificate',
+      body: 'Institute of Training and Occupational Learning',
+      year: 'June 2023',
+      link: '',
+    },
+    {
       name: 'Innovate UK Knowledge Transfer Partnership',
       body: 'Two-year industry-academic collaboration developing deep learning models for remote visual inspection',
       year: '2021–2023',
       link: '',
     },
     {
+      name: 'DeepLearn 2022 Summer Camp',
+      body: 'Universidad de Las Palmas de Gran Canaria',
+      year: 'July 2022',
+      link: '',
+    },
+    {
       name: 'ICDAR Conference Presentation',
       body: 'Presented research on automated corrosion circuit identification in engineering diagrams',
       year: '2021',
+      link: '',
+    },
+    {
+      name: 'Computer Vision Applications',
+      body: 'OpenCV certification for computer vision development',
+      year: 'May 2021',
+      link: '',
+    },
+    {
+      name: 'DeepLearning.AI TensorFlow Developer',
+      body: 'Professional certificate for TensorFlow development and deployment',
+      year: 'January 2021',
+      link: '',
+    },
+    {
+      name: 'Sequences, Time Series and Prediction',
+      body: 'DeepLearning.AI specialisation in time series forecasting',
+      year: 'December 2020',
+      link: '',
+    },
+    {
+      name: 'Natural Language Processing in TensorFlow',
+      body: 'Coursera certification for NLP applications using TensorFlow',
+      year: 'November 2020',
+      link: '',
+    },
+    {
+      name: 'Convolutional Neural Networks in TensorFlow',
+      body: 'Coursera certification for CNN development and implementation',
+      year: 'October 2020',
+      link: '',
+    },
+    {
+      name: 'Introduction to TensorFlow for AI, ML, and Deep Learning',
+      body: 'Coursera foundational certification for TensorFlow',
+      year: 'October 2020',
+      link: '',
+    },
+    {
+      name: 'Six Sigma Green Belt',
+      body: 'IISE Manufacturing and Design Division - Process improvement methodology',
+      year: 'September 2016',
       link: '',
     },
   ],
