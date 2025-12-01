@@ -13,21 +13,23 @@ const CONFIG = {
       mode: 'manual', // Changed from 'automatic' to 'manual'
       manual: {
         projects: [
-          'luistoq/OCR-quality-evaluator', // Only these repos will appear
-          'luistoq/RAG-chat-with-your-docs',
-          'luistoq/computer-vision-benchmark',
-          'luistoq/computer-vision-energy',
-          'luistoq/wind-power-grid-data-analysis',
+          'luistoq/OCR-Quality-Evaluation-Framework-Python-LanguageTool',      // OCR Quality Evaluation Framework — Python & LanguageTool
+          'luistoq/AI-PDF-Assistant-RAG-Chatbot-using-LlamaIndex-Ollama',     // AI PDF Assistant — RAG Chatbot using LlamaIndex & Ollama
+          'luistoq/Computer-Vision-Libraries-Benchmark-Streamlit-Python',      // Computer Vision Libraries Benchmark — Streamlit & Python
+          'luistoq/Computer-Vision-for-the-Energy-Sector-Practical-Showcase',  // Computer Vision for the Energy Sector — Practical Showcase
+          'luistoq/Wind-Power-Forecasting-App-Streamlit-PCA-LSTM',             // Wind Power Forecasting App — Streamlit, PCA & LSTM
         ],
       },
     },
+  },
+
     external: {
-      header: 'Featured Projects & Demos',
+      header: 'Featured Projects',
       projects: [
         {
           title: 'RAHD AI – Regulatory Automation Platform',
           description:
-            'Document interrogation engine for well decommissioning. Built with RagFlow, Python, FastAPI, and PostgreSQL. Reduces manual document review time by 70%.',
+            'Document interrogation engine for well decommissioning regulatory compliance. Built with RagFlow, Python, FastAPI, and PostgreSQL. Reduces manual document review time by 70%.',
           imageUrl:
             'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
           link: 'https://github.com/luistoq',
@@ -35,15 +37,23 @@ const CONFIG = {
         {
           title: 'ROHM – Building Regulations Assistant',
           description:
-            'Full-stack RAG system with semantic search for UK building regulations. Built with FastAPI, Weaviate, LlamaIndex, React, and Tailwind CSS.',
+            'Full-stack RAG system with semantic search for UK building regulations. Built with FastAPI, Weaviate, LlamaIndex, React, and Tailwind CSS. Achieves 85% faster regulatory information access.',
           imageUrl:
             'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop',
           link: 'https://github.com/luistoq',
         },
         {
+          title: 'AISUS Computer Vision – Defect Detection',
+          description:
+            '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
+          imageUrl:
+            'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&auto=format&fit=crop',
+          link: 'https://github.com/luistoq',
+        },
+        {
           title: 'TRAC – Industrial Data Platform',
           description:
-            'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1.',
+            'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1 day.',
           imageUrl:
             'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
           link: 'https://github.com/luistoq',
@@ -51,14 +61,23 @@ const CONFIG = {
         {
           title: 'Innosport AI – Performance Coaching',
           description:
-            'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices.',
+            'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices for video processing.',
           imageUrl:
             'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop',
+          link: 'https://github.com/luistoq',
+        },
+        {
+          title: 'Strategic Scorecard – Strategy Platform',
+          description:
+            'Organisational strategy tracking with hierarchical weighted scoring, task management, and multi-dashboard support. Full-stack platform using FastAPI, Supabase, and React.',
+          imageUrl:
+            'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop',
           link: 'https://github.com/luistoq',
         },
       ],
     },
   },
+
 
   seo: {
     title: 'Luis Toral | Lead AI Engineer',
