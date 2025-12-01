@@ -25,13 +25,14 @@ const CONFIG = {
       header: 'Featured Projects',
       projects: [
         {
-          title: 'RAHD AI – Regulatory Automation Platform',
+          title: 'RAHD AI – Decommissioning Intelligence Platform',
           description:
-            'Document interrogation engine for well decommissioning regulatory compliance. Built with RagFlow, Python, FastAPI, and PostgreSQL. Reduces manual document review time by 70%.',
+            'AI-powered document and data intelligence system for large-scale infrastructure decommissioning. Built to extract, structure, and analyze complex technical information, accelerating planning workflows and significantly reducing manual review effort.',
           imageUrl:
             'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
           link: 'https://rahd.ai/',
         },
+
         {
           title: 'ROHM – Building Regulations Assistant',
           description:
@@ -64,14 +65,7 @@ const CONFIG = {
             'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop',
           link: 'https://www.innosport.ai/',
         },
-        {
-          title: 'Strategic Scorecard – Strategy Platform',
-          description:
-            'Organisational strategy tracking with hierarchical weighted scoring, task management, and multi-dashboard support. Full-stack platform using FastAPI, Supabase, and React.',
-          imageUrl:
-            'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop',
-          link: 'https://github.com/luistoq',
-        },
+
       ],
     },
   },
@@ -197,17 +191,26 @@ const CONFIG = {
     },
   ],
 
-  publications: [
-    {
-      title: 'Automated Corrosion Circuit Identification in P&ID Diagrams',
-      conferenceName: 'ICDAR',
-      journalName: '',
-      authors: 'Luis Toral, et al.',
-      link: '',
-      description:
-        'Research on intelligent document analysis pipeline for engineering diagrams using OpenCV and YOLO.',
-    },
-  ],
+   publications: [
+      {
+        title: 'A Deep Learning Digitisation Framework to Mark up Corrosion Circuits in Piping and Instrumentation Diagrams',
+        conferenceName: 'ICDAR 2021 Workshops',
+        journalName: 'Lecture Notes in Computer Science',
+        authors: 'Luis Toral, Carlos Francisco Moreno-García, Eyad Elyan, Shahram Memon',
+        link: 'https://doi.org/10.1007/978-3-030-86159-9_18',
+        description:
+          'Semi-automated framework using deep learning to localise pipe specifications and connection points in undigitised P&ID drawings. Enables engineers to mark up corrosion sections with minimal error rates. September 2021.',
+      },
+      {
+        title: 'Digital Transformation for Offshore Assets: A Deep Learning Framework for Weld Classification in Remote Visual Inspections',
+        conferenceName: '',
+        journalName: 'Lecture Notes in Computer Science',
+        authors: 'Luis Toral, et al.',
+        link: 'https://link.springer.com/chapter/10.1007/978-3-031-34204-2_19',
+        description:
+          'Deep learning framework for automating classification of circumferential welds in subsea environments. Achieved 86.75% accuracy using EfficientNet CNN architecture on 4,000 images, demonstrating significant reduction in inspection time.',
+      },
+    ],
 
   blog: {
     source: '',
