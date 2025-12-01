@@ -1,5 +1,4 @@
 // gitprofile.config.ts
-// Complete configuration with all projects including AISUS
 
 const CONFIG = {
   github: {
@@ -10,15 +9,16 @@ const CONFIG = {
   projects: {
     github: {
       display: true,
-      header: 'GitHub Repositories',
-      mode: 'automatic', // Change to 'manual' if you want to select specific repos
-      automatic: {
-        sortBy: 'stars',
-        limit: 6,
-        exclude: {
-          forks: false,
-          projects: [], // Add repo names here to hide them: ['luistoq/repo-to-hide']
-        },
+      header: 'GitHub Projects',
+      mode: 'manual',
+      manual: {
+        projects: [
+          'luistoq/OCR-Quality-Evaluation-Framework-Python-LanguageTool',
+          'luistoq/AI-PDF-Assistant-RAG-Chatbot-using-LlamaIndex-Ollama',
+          'luistoq/Computer-Vision-Libraries-Benchmark-Streamlit-Python',
+          'luistoq/Computer-Vision-for-the-Energy-Sector-Practical-Showcase',
+          'luistoq/Wind-Power-Forecasting-App-Streamlit-PCA-LSTM',
+        ],
       },
     },
     external: {
@@ -30,7 +30,7 @@ const CONFIG = {
             'Document interrogation engine for well decommissioning regulatory compliance. Built with RagFlow, Python, FastAPI, and PostgreSQL. Reduces manual document review time by 70%.',
           imageUrl:
             'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
-          link: 'https://github.com/luistoq',
+          link: 'https://rahd.ai/',
         },
         {
           title: 'ROHM – Building Regulations Assistant',
@@ -41,12 +41,12 @@ const CONFIG = {
           link: 'https://github.com/luistoq',
         },
         {
-          title: 'AISUS Computer Vision – Defect Detection',
+          title: 'AISUS Computer Vision – Anomaly Detection',
           description:
             '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
           imageUrl:
             'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&auto=format&fit=crop',
-          link: 'https://github.com/luistoq',
+          link: 'https://www.youtube.com/watch?v=vMQuRHQAhNc',
         },
         {
           title: 'TRAC – Industrial Data Platform',
@@ -62,7 +62,7 @@ const CONFIG = {
             'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices for video processing.',
           imageUrl:
             'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop',
-          link: 'https://github.com/luistoq',
+          link: 'https://www.innosport.ai/',
         },
         {
           title: 'Strategic Scorecard – Strategy Platform',
@@ -92,7 +92,7 @@ const CONFIG = {
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // Add your YouTube channel if you have one
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
@@ -107,7 +107,7 @@ const CONFIG = {
   },
 
   resume: {
-    fileUrl: '', // Add your CV URL here after uploading it to GitHub
+    fileUrl: '',
   },
 
   skills: [
@@ -210,7 +210,7 @@ const CONFIG = {
   ],
 
   blog: {
-    source: '', // 'medium' or 'dev' if you have a blog
+    source: '',
     username: '',
     limit: 3,
   },
@@ -264,6 +264,8 @@ const CONFIG = {
       'sunset',
     ],
   },
+
+  footer: ``, // Empty footer - removed "Made with GitProfile"
 
   enablePWA: true,
 };
