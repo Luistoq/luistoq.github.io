@@ -21,45 +21,46 @@ const CONFIG = {
         ],
       },
     },
-  external: {
-    header: 'Featured Projects',
-    projects: [
-      {
-        title: 'RAHD AI – Decommissioning Intelligence Platform',
-        description:
-          'AI-powered document and data intelligence system for large-scale infrastructure decommissioning. Built to extract, structure, and analyse complex technical information, accelerating planning workflows and significantly reducing manual review effort.',
-        imageUrl: '/images/projects/rahd.png',
-        link: 'https://rahd.ai/',
-      },
-      {
-        title: 'HPR ROV – Visual Digital Twin Platform',
-        description:
-          'Contributed to subsea inspection platform development using Visual Digital Twins. Built video ingestion and AI-assisted reporting tools with Azure Functions, Blob Storage, and Python microservices, integrating LLM-based summarisation for inspection insights.',
-        imageUrl: '/images/projects/hpr.png', // you'd need a generic subsea/ROV image
-        link: 'https://www.linkedin.com/posts/jan-stander-3ba0aa91_digitaltwin-energy-subsea-activity-7369674392114528257-2vgb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAzgPuEBc-aHfz7dYUIN7iLQL4txYRDpOuM', // this LinkedIn post
-      },
-      {
-        title: 'AISUS Machine Learning – Anomaly Detection',
-        description:
-          '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
-        imageUrl: '/images/projects/aisus.png',
-        link: 'https://www.linkedin.com/posts/jan-stander-3ba0aa91_digitaltwin-energy-subsea-activity-7369674392114528257-2vgb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAzgPuEBc-aHfz7dYUIN7iLQL4txYRDpOuM',
-      },
-      {
-        title: 'TRAC – Industrial Data Platform',
-        description:
-          'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1 day.',
-        imageUrl: '/images/projects/trac.png',
-        link: 'https://www.linkedin.com/posts/trac-energy-ltd_datavisualisation-3dplot-tracenergy-ugcPost-7321117211912265729-7-CV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAzgPuEBc-aHfz7dYUIN7iLQL4txYRDpOuM',
-      },
-      {
-        title: 'Innosport AI – Performance Coaching',
-        description:
-          'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices for video processing.',
-        imageUrl: '/images/projects/innosport.png',
-        link: 'https://www.innosport.ai/',
-      },
-    ],
+    external: {
+      header: 'Featured Projects',
+      projects: [
+        {
+          title: 'RAHD AI – Decommissioning Intelligence Platform',
+          description:
+            'AI-powered document and data intelligence system for large-scale infrastructure decommissioning. Built to extract, structure, and analyse complex technical information, accelerating planning workflows and significantly reducing manual review effort.',
+          imageUrl: '/images/projects/rahd.png',
+          link: 'https://rahd.ai/',
+        },
+        {
+          title: 'HPR ROV – Visual Digital Twin Platform',
+          description:
+            'Contributed to subsea inspection platform development using Visual Digital Twins. Built video ingestion and AI-assisted reporting tools with Azure Functions, Blob Storage, and Python microservices, integrating LLM-based summarisation for inspection insights.',
+          imageUrl: '/images/projects/hpr.png',
+          link: 'https://www.linkedin.com/posts/jan-stander-3ba0aa91_digitaltwin-energy-subsea-activity-7369674392114528257-2vgb?utm_source=share&utm_medium=member_desktop',
+        },
+        {
+          title: 'AISUS Machine Learning – Anomaly Detection',
+          description:
+            '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
+          imageUrl: '/images/projects/aisus.png',
+          link: 'https://www.youtube.com/watch?v=vMQuRHQAhNc',
+        },
+        {
+          title: 'TRAC – Industrial Data Platform',
+          description:
+            'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1 day.',
+          imageUrl: '/images/projects/trac.png',
+          link: 'https://www.linkedin.com/posts/trac-energy-ltd_datavisualisation-3dplot-tracenergy-ugcPost-7321117211912265729-7-CV?utm_source=social_share_send&utm_medium=member_desktop_web',
+        },
+        {
+          title: 'Innosport AI – Performance Coaching',
+          description:
+            'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices for video processing.',
+          imageUrl: '/images/projects/innosport.png',
+          link: 'https://www.innosport.ai/',
+        },
+      ],
+    },
   },
 
   seo: {
@@ -133,7 +134,7 @@ const CONFIG = {
     },
     {
       company: 'AISUS (Innovate UK KTP)',
-      position: 'Computer Vision Engineer',
+      position: 'Machine Learning Engineer',
       from: 'July 2021',
       to: 'December 2023',
       companyLink: '',
@@ -183,26 +184,26 @@ const CONFIG = {
     },
   ],
 
-   publications: [
-      {
-        title: 'A Deep Learning Digitisation Framework to Mark up Corrosion Circuits in Piping and Instrumentation Diagrams',
-        conferenceName: 'ICDAR 2021 Workshops',
-        journalName: 'Lecture Notes in Computer Science',
-        authors: 'Luis Toral, Carlos Francisco Moreno-García, Eyad Elyan, Shahram Memon',
-        link: 'https://doi.org/10.1007/978-3-030-86159-9_18',
-        description:
-          'Semi-automated framework using deep learning to localise pipe specifications and connection points in undigitised P&ID drawings. Enables engineers to mark up corrosion sections with minimal error rates. September 2021.',
-      },
-      {
-        title: 'Digital Transformation for Offshore Assets: A Deep Learning Framework for Weld Classification in Remote Visual Inspections',
-        conferenceName: '',
-        journalName: 'Lecture Notes in Computer Science',
-        authors: 'Luis Toral, et al.',
-        link: 'https://link.springer.com/chapter/10.1007/978-3-031-34204-2_19',
-        description:
-          'Deep learning framework for automating classification of circumferential welds in subsea environments. Achieved 86.75% accuracy using EfficientNet CNN architecture on 4,000 images, demonstrating significant reduction in inspection time.',
-      },
-    ],
+  publications: [
+    {
+      title: 'A Deep Learning Digitisation Framework to Mark up Corrosion Circuits in Piping and Instrumentation Diagrams',
+      conferenceName: 'ICDAR 2021 Workshops',
+      journalName: 'Lecture Notes in Computer Science',
+      authors: 'Luis Toral, Carlos Francisco Moreno-García, Eyad Elyan, Shahram Memon',
+      link: 'https://doi.org/10.1007/978-3-030-86159-9_18',
+      description:
+        'Semi-automated framework using deep learning to localise pipe specifications and connection points in undigitised P&ID drawings. Enables engineers to mark up corrosion sections with minimal error rates. September 2021.',
+    },
+    {
+      title: 'Digital Transformation for Offshore Assets: A Deep Learning Framework for Weld Classification in Remote Visual Inspections',
+      conferenceName: '',
+      journalName: 'Lecture Notes in Computer Science',
+      authors: 'Luis Toral, et al.',
+      link: 'https://link.springer.com/chapter/10.1007/978-3-031-34204-2_19',
+      description:
+        'Deep learning framework for automating classification of circumferential welds in subsea environments. Achieved 86.75% accuracy using EfficientNet CNN architecture on 4,000 images, demonstrating significant reduction in inspection time.',
+    },
+  ],
 
   blog: {
     source: '',
@@ -260,7 +261,7 @@ const CONFIG = {
     ],
   },
 
-  footer: ``, // Empty footer - removed "Made with GitProfile"
+  footer: ``,
 
   enablePWA: true,
 };
