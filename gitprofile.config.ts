@@ -2,182 +2,215 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'luistoq', // Your GitHub username
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
-  base: '/gitprofile/',
+  base: '/', // '/' for luistoq.github.io, '/portfolio/' for luistoq.github.io/portfolio
+
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'automatic',
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars',
+        limit: 6,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false,
+          projects: [],
         },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Featured Projects',
       projects: [
         {
-          title: 'Project Name',
+          title: 'RAHD AI – Regulatory Automation Platform',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Document interrogation engine for well decommissioning. Built with RagFlow, Python, FastAPI, and PostgreSQL. Reduces manual document review time by 70%.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
+          link: 'https://github.com/luistoq',
         },
         {
-          title: 'Project Name',
+          title: 'ROHM – Building Regulations Assistant',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Full-stack RAG system with semantic search for UK building regulations. Built with FastAPI, Weaviate, LlamaIndex, React, and Tailwind CSS.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop',
+          link: 'https://github.com/luistoq',
+        },
+        {
+          title: 'TRAC – Industrial Data Platform',
+          description:
+            'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1.',
+          imageUrl:
+            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop',
+          link: 'https://github.com/luistoq',
+        },
+        {
+          title: 'Innosport AI – Performance Coaching',
+          description:
+            'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices.',
+          imageUrl:
+            'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop',
+          link: 'https://github.com/luistoq',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+
+  seo: {
+    title: 'Luis Toral | Lead AI Engineer',
+    description:
+      'Lead AI Engineer specialising in RAG systems, LLMs, and production AI. Building intelligent systems across regulatory, industrial, and consumer domains.',
+    imageURL: '',
+  },
+
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'luis-toral-251007',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'luistoq@outlook.com',
   },
+
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '',
   },
+
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
+    'Python',
+    'FastAPI',
+    'PyTorch',
+    'TensorFlow',
+    'LangChain',
+    'LlamaIndex',
+    'RagFlow',
+    'Weaviate',
     'PostgreSQL',
-    'Git',
+    'React',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Azure',
+    'Git',
+    'CI/CD',
+    'RAG Systems',
+    'LLMs',
   ],
+
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Ventex Studio',
+      position: 'Lead AI Engineer',
+      from: 'October 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Pixel View Consulting',
+      position: 'Machine Learning Engineer',
+      from: 'December 2023',
+      to: 'October 2024',
+      companyLink: '',
+    },
+    {
+      company: 'AISUS (Innovate UK KTP)',
+      position: 'Computer Vision Engineer',
+      from: 'July 2021',
+      to: 'December 2023',
+      companyLink: '',
+    },
+    {
+      company: 'Robert Gordon University',
+      position: 'Machine Learning Research Assistant',
+      from: 'January 2020',
+      to: 'December 2021',
+      companyLink: 'https://www.rgu.ac.uk',
     },
   ],
+
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Innovate UK Knowledge Transfer Partnership',
+      body: 'Two-year industry-academic collaboration developing deep learning models for remote visual inspection',
+      year: '2021–2023',
+      link: '',
+    },
+    {
+      name: 'ICDAR Conference Presentation',
+      body: 'Presented research on automated corrosion circuit identification in engineering diagrams',
+      year: '2021',
+      link: '',
     },
   ],
+
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Robert Gordon University',
+      degree: 'MRes Data Science',
+      from: '2023',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Robert Gordon University',
+      degree: 'MSc Oil & Gas Finance and Accounting',
+      from: '2020',
+      to: '2020',
+    },
+    {
+      institution: 'ITESM (Tecnológico de Monterrey)',
+      degree: 'BSc Mechanical Engineering (Honours)',
       from: '2012',
-      to: '2014',
+      to: '2018',
     },
   ],
+
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: 'Automated Corrosion Circuit Identification in P&ID Diagrams',
+      conferenceName: 'ICDAR',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: 'Luis Toral, et al.',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Research on intelligent document analysis pipeline for engineering diagrams using OpenCV and YOLO.',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
+
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: '',
+    username: '',
+    limit: 3,
   },
+
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: { id: '', snippetVersion: 6 },
+
+  hotjar: {
+    id: '',
+    snippetVersion: 6,
+  },
+
   themeConfig: {
-    defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
+    defaultTheme: 'nord',
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -211,14 +244,9 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
-      'caramellatte',
-      'abyss',
-      'silk',
-      'procyon',
     ],
   },
 
-  // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
