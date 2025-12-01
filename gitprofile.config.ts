@@ -10,20 +10,15 @@ const CONFIG = {
     github: {
       display: true,
       header: 'GitHub Projects',
-      mode: 'automatic',
-      automatic: {
-        sortBy: 'stars',
-        limit: 6,
-        exclude: {
-          forks: false,
-          projects: ['luistoq/luistoq.github.io',
-                     'luistoq/nsta-dataset',
-                     'luistoq/gymTracker',
-                     'luistoq/UKLife',
-                     'luistoq/MaskFreeVIS---dev',
-                     'luistoq/mmpose---dev',
-                    ],
-        },
+      mode: 'manual', // Changed from 'automatic' to 'manual'
+      manual: {
+        projects: [
+          'luistoq/OCR-quality-evaluator', // Only these repos will appear
+          'luistoq/RAG-chat-with-your-docs',
+          'luistoq/computer-vision-benchmark',
+          'luistoq/computer-vision-energy',
+          'luistoq/wind-power-grid-data-analysis',
+        ],
       },
     },
     external: {
