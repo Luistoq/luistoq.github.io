@@ -28,35 +28,35 @@ const CONFIG = {
           title: 'RAHD AI – Decommissioning Intelligence Platform',
           description:
             'AI-powered document and data intelligence system for large-scale infrastructure decommissioning. Built to extract, structure, and analyse complex technical information, accelerating planning workflows and significantly reducing manual review effort.',
-          imageUrl: '/images/projects/rahd.png',
+          imageUrl: 'public/images/projects/rahd.png',
           link: 'https://rahd.ai/',
         },
         {
           title: 'HPR ROV – Visual Digital Twin Platform',
           description:
             'Contributed to subsea inspection platform development using Visual Digital Twins. Built video ingestion and AI-assisted reporting tools with Azure Functions, Blob Storage, and Python microservices, integrating LLM-based summarisation for inspection insights.',
-          imageUrl: '/images/projects/hpr.png',
+          imageUrl: 'public/images/projects/hpr.png',
           link: 'https://www.linkedin.com/posts/jan-stander-3ba0aa91_digitaltwin-energy-subsea-activity-7369674392114528257-2vgb?utm_source=share&utm_medium=member_desktop',
         },
         {
           title: 'AISUS Machine Learning – Anomaly Detection',
           description:
             '£250k Innovate UK project developing deep learning models for remote visual inspection of offshore assets. Multi-label defect classification (pitting, cracks, corrosion) achieving 94%+ accuracy using PyTorch.',
-          imageUrl: '/images/projects/aisus.png',
+          imageUrl: 'public/images/projects/aisus.png',
           link: 'https://www.youtube.com/watch?v=vMQuRHQAhNc',
         },
         {
           title: 'TRAC – Industrial Data Platform',
           description:
             'Micro-SaaS processing millions of ultrasonic readings with automated validation and visualisation. Reduced engineering report cycles from 5 days to 1 day.',
-          imageUrl: '/images/projects/trac.png',
+          imageUrl: 'public/images/projects/trac.png',
           link: 'https://www.linkedin.com/posts/trac-energy-ltd_datavisualisation-3dplot-tracenergy-ugcPost-7321117211912265729-7-CV?utm_source=social_share_send&utm_medium=member_desktop_web',
         },
         {
           title: 'Innosport AI – Performance Coaching',
           description:
             'Sports performance platform with pose analysis and real-time feedback. Built with React, Azure Functions, and Python microservices for video processing.',
-          imageUrl: '/images/projects/innosport.png',
+          imageUrl: 'public/images/projects/innosport.png',
           link: 'https://www.innosport.ai/',
         },
       ],
