@@ -22,7 +22,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Featured Projects',
+      header: 'Featured Projects & Demos',
       projects: [
         {
           title: 'RAHD AI – Regulatory Automation Platform',
